@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MNR Group | आपकी सुविधा, हमारा संकल्प</title>
+<meta name="description" content="MNR Group - किराना, ताज़ी सब्ज़ियाँ, आयरन वर्क, पानी सप्लाई, लोडिंग सर्विस और घर तक डिलीवरी।">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans Devanagari","Mangal",Arial,sans-serif;color:#14213d;background:#f7f9fc;line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+header{background:#fff;position:sticky;top:0;z-index:20;box-shadow:0 3px 18px #00000012}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:21px}
+.brand img{width:58px;height:58px;object-fit:contain}
+nav{display:flex;gap:22px;align-items:center;font-weight:700}
+nav a:hover{color:#f47b20}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:12px;font-weight:800;border:0;cursor:pointer}
+.primary{background:#f47b20;color:#fff}
+.dark{background:#14213d;color:#fff}
+.hero{background:linear-gradient(120deg,#14213d 0%,#173c70 58%,#f47b20 180%);color:white;padding:78px 0}
+.hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:#ffffff18;border:1px solid #ffffff35;padding:7px 13px;border-radius:30px;margin-bottom:15px}
+h1{font-size:clamp(38px,6vw,66px);line-height:1.08;margin-bottom:18px}
+.hero p{font-size:19px;max-width:680px;color:#e9eef7;margin-bottom:25px}
+.hero-card{background:#fff;color:#14213d;border-radius:28px;padding:24px;box-shadow:0 20px 60px #00000025}
+.hero-card img{width:100%;max-width:330px;display:block;margin:auto}
+section{padding:70px 0}
+.section-title{text-align:center;margin-bottom:38px}
+.section-title h2{font-size:36px;margin-bottom:8px}
+.section-title p{color:#657089}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;padding:26px;border-radius:20px;box-shadow:0 8px 30px #14213d0d;border:1px solid #e9edf5;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 35px #14213d16}
+.icon{font-size:42px;margin-bottom:8px}
+.card h3{font-size:21px;margin-bottom:7px}
+.card p{color:#667085}
+.order{background:#eef5ff}
+.order-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.form{background:#fff;padding:28px;border-radius:22px;box-shadow:0 8px 30px #14213d0d}
+label{display:block;font-weight:700;margin:12px 0 6px}
+input,select,textarea{width:100%;padding:13px 14px;border:1px solid #d8deea;border-radius:11px;font:inherit}
+textarea{min-height:110px;resize:vertical}
+.steps{display:grid;gap:15px}
+.step{display:flex;gap:15px;background:#fff;padding:20px;border-radius:17px}
+.num{width:42px;height:42px;border-radius:50%;background:#f47b20;color:#fff;display:grid;place-items:center;font-weight:900;flex:none}
+.contact{background:#14213d;color:#fff}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.contact p{color:#d9e0ec;margin:8px 0}
+footer{background:#0d172a;color:#bfc8d8;text-align:center;padding:22px}
+.float{position:fixed;right:20px;bottom:20px;background:#20a85a;color:#fff;border-radius:50px;padding:14px 20px;font-weight:900;box-shadow:0 8px 25px #0003;z-index:30}
+@media(max-width:800px){
+ nav{display:none}.hero-grid,.order-grid,.contact-grid{grid-template-columns:1fr}
+ .services{grid-template-columns:1fr 1fr}
+ .hero{padding:55px 0}
+}
+@media(max-width:520px){.services{grid-template-columns:1fr}.brand span{font-size:18px}.hero-card{padding:15px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="brand" href="#home"><img src="mnr-logo.png" alt="MNR Group Logo"><span>MNR GROUP</span></a>
+<nav>
+<a href="#home">होम</a><a href="#services">सेवाएँ</a><a href="#digital">ई-मित्र</a><a href="#order">ऑर्डर</a><a href="#contact">संपर्क</a>
+</nav>
+<a class="btn primary" href="#order">ऑर्डर करें</a>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div class="container hero-grid">
+<div>
+<span class="badge">एक ही जगह • कई सुविधाएँ</span>
+<h1>आपकी सुविधा,<br>हमारा संकल्प</h1>
+<p>MNR Group पर आपको किराना सामान, ताज़ी सब्ज़ियाँ, पानी सप्लाई, आयरन वर्क, लोडिंग सर्विस और घर तक डिलीवरी—सब एक ही जगह मिलती है।</p>
+<a class="btn primary" href="#services">हमारी सेवाएँ देखें</a>
+<a class="btn" style="margin-left:8px;background:#ffffff18;color:#fff;border:1px solid #ffffff55" href="tel:8440828377">📞 कॉल करें</a>
+</div>
+<div class="hero-card"><img src="mnr-logo.png" alt="MNR Group"></div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-title"><h2>हमारी सेवाएँ</h2><p>आपकी रोज़मर्रा की ज़रूरतों के लिए भरोसेमंद सेवाएँ</p></div>
+<div class="services">
+<div class="card"><div class="icon">🛒</div><h3>किराना सामान</h3><p>रोज़मर्रा की जरूरत का किराना सामान आसानी से ऑर्डर करें।</p></div>
+<div class="card"><div class="icon">🥬</div><h3>ताज़ी सब्ज़ियाँ</h3><p>घर के लिए ताज़ी और रोज़मर्रा में काम आने वाली सब्ज़ियाँ।</p></div>
+<div class="card"><div class="icon">🔩</div><h3>आयरन वर्क</h3><p>लोहे से जुड़े काम और फैब्रिकेशन की सुविधा।</p></div>
+<div class="card"><div class="icon">💧</div><h3>पानी सप्लाई</h3><p>जरूरत के अनुसार पानी सप्लाई की बुकिंग करें।</p></div>
+<div class="card"><div class="icon">🚚</div><h3>लोडिंग सर्विस</h3><p>सामान लोडिंग और संबंधित परिवहन सेवा के लिए संपर्क करें।</p></div>
+<div class="card"><div class="icon">🏠</div><h3>घर तक डिलीवरी</h3><p>आपके ऑर्डर को आपके घर तक पहुँचाने की सुविधा।</p></div>
+<div class="card"><div class="icon">🖥️</div><h3>ई-मित्र सेवाएँ</h3><p>ऑनलाइन सरकारी एवं डिजिटल सेवाओं के लिए सहायता और आवेदन सुविधा।</p></div>
+<div class="card"><div class="icon">📚</div><h3>स्टेशनरी</h3><p>कॉपी, पेन, फाइल, प्रिंटिंग और रोज़मर्रा की स्टेशनरी उपलब्ध।</p></div>
+<div class="card"><div class="icon">📱</div><h3>मोबाइल एक्सेसरीज़</h3><p>मोबाइल कवर, चार्जर, केबल, ईयरफोन और अन्य एक्सेसरीज़।</p></div>
+</div>
+</div>
+</section>
+
+
+<section id="digital" style="background:#fff">
+<div class="container">
+<div class="section-title"><h2>ई-मित्र एवं डिजिटल सेवाएँ</h2><p>ऑनलाइन एवं डिजिटल कार्यों के लिए एक ही जगह सहायता</p></div>
+<div class="services">
+<div class="card"><div class="icon">🪪</div><h3>ऑनलाइन आवेदन</h3><p>विभिन्न ऑनलाइन फॉर्म और आवेदन भरने में सहायता।</p></div>
+<div class="card"><div class="icon">🖨️</div><h3>प्रिंटिंग एवं स्कैनिंग</h3><p>प्रिंट, स्कैन और दस्तावेज़ संबंधी सामान्य डिजिटल सेवाएँ।</p></div>
+<div class="card"><div class="icon">💻</div><h3>डिजिटल सहायता</h3><p>ऑनलाइन प्रक्रिया और डिजिटल काम में आसान सहायता।</p></div>
+</div>
+</div>
+</section>
+
+<section class="order" id="order">
+<div class="container order-grid">
+<div>
+<div class="section-title" style="text-align:left;margin-bottom:20px"><h2>ऑर्डर / सर्विस बुकिंग</h2><p>अपनी जरूरत लिखें, हम आपसे संपर्क करेंगे।</p></div>
+<div class="steps">
+<div class="step"><div class="num">1</div><div><b>सेवा चुनें</b><p>किराना, सब्ज़ी, पानी, लोडिंग या अन्य सेवा चुनें।</p></div></div>
+<div class="step"><div class="num">2</div><div><b>अपनी जरूरत बताएं</b><p>सामान या काम का विवरण लिखें।</p></div></div>
+<div class="step"><div class="num">3</div><div><b>हमसे संपर्क</b><p>बुकिंग की पुष्टि के लिए MNR Group आपसे संपर्क करेगा।</p></div></div>
+</div>
+</div>
+<form class="form" onsubmit="sendWhatsApp(event)">
+<label>आपका नाम</label><input id="name" required placeholder="नाम लिखें">
+<label>मोबाइल नंबर</label><input id="phone" required type="tel" placeholder="मोबाइल नंबर">
+<label>सेवा</label>
+<select id="service"><option>किराना सामान</option><option>ताज़ी सब्ज़ियाँ</option><option>आयरन वर्क</option><option>पानी सप्लाई</option><option>लोडिंग सर्विस</option><option>घर तक डिलीवरी</option><option>ई-मित्र सेवाएँ</option><option>स्टेशनरी</option><option>मोबाइल एक्सेसरीज़</option></select>
+<label>पता / ऑर्डर का विवरण</label><textarea id="details" required placeholder="क्या चाहिए और कहाँ डिलीवरी करनी है?"></textarea>
+<button class="btn primary" style="width:100%;margin-top:15px" type="submit">WhatsApp पर ऑर्डर भेजें</button>
+</form>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container contact-grid">
+<div>
+<h2 style="font-size:36px">MNR GROUP</h2>
+<p>तेज़ सेवा • भरोसेमंद सेवा • हर समय आपके साथ</p>
+<p>📞 मोबाइल: <a href="tel:8440828377">8440828377</a></p>
+<p>📍 सेवा क्षेत्र: जोधपुर एवं आसपास</p>
+</div>
+<div style="text-align:center">
+<a class="btn primary" href="tel:8440828377">अभी कॉल करें</a>
+<a class="btn" style="margin-left:8px;background:#20a85a;color:#fff" href="https://wa.me/918440828377" target="_blank">WhatsApp करें</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer>© 2026 MNR Group • आपकी सुविधा, हमारा संकल्प</footer>
+<a class="float" href="https://wa.me/918440828377?text=नमस्ते%20MNR%20Group%2C%20मुझे%20सेवा%20की%20जानकारी%20चाहिए।" target="_blank">💬 WhatsApp</a>
+
+<script>
+function sendWhatsApp(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value;
+ const p=document.getElementById('phone').value;
+ const s=document.getElementById('service').value;
+ const d=document.getElementById('details').value;
+ const msg=`नमस्ते MNR Group,%0A%0Aनाम: ${encodeURIComponent(n)}%0Aमोबाइल: ${encodeURIComponent(p)}%0Aसेवा: ${encodeURIComponent(s)}%0Aविवरण: ${encodeURIComponent(d)}`;
+ window.open(`https://wa.me/918440828377?text=${msg}`,'_blank');
+}
+</script>
+</body>
+</html>
